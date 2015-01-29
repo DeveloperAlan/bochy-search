@@ -18,3 +18,6 @@
 //= require_tree ./collections
 //= require_tree .
 
+$(function() {
+  Backbone.history.start();
+});

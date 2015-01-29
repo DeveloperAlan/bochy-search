@@ -1,8 +1,5 @@
-var Person = Backbone.Model.extend({
-  urlRoot: "/people",
+var App = App || {};
 
-  default: {
-    first_name: "LOL",
-    last_name: "LMAO"
-  }
+App.Person = Backbone.Model.extend({
+  urlRoot: "/people",
 });
